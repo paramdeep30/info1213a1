@@ -1,8 +1,8 @@
 div
 {
     border-radius: 5px;
-    }
-#header
+}
+.header
 {
     position: fixed;
     z-index: 2;
@@ -10,103 +10,123 @@ div
     width: 98%;
     background-color: #668284;
     margin-bottom: 10px
-    }
+}
 
 #name {
     float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
 }
-
-#email{
+#email
+{
     float:right;
     margin-right: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
 }
-
-
-
+#email > a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
 a:hover {
     font-weight: bold;
 }
 
 .right
 {
-    float: left;
-    margin-top: 50px;
-    padding-left:5px;
-    /*margin-right: -10px;
-    margin-left: 14%;*/
-    height: auto;
-    width: 99%;
-    background-color: #E3EDD8;
-    }
-
-
-    
-#footer
-{
-    height:40px;
-    clear:both;
-    position: relative;
-    background-color: #C1E3E1;
-    }
-    
+    padding-top: 30px;
+}
 h3
 {
     text-decoration: underline;
-    }
-
+    width: 99%;
+    background-color: #E3EDD8;
+}
 #job-responsibilities
 {
     padding: 1px;
-    }
+}
 .job-title
 {
     font-weight: bold;
-    }
+}
 table
 {
-    border: 1px dashed black;
-    }
+    border: 1px solid black;
+}
 td
 {
     padding: 2px;
-    border: 1px solid #E88741;
-    }
-
-/*#course-name
-{
-    font-weight:bold;
-    }*/
-
+    border: 1px dashed #E88741;
+}
 #company-name
 {
     height:2px;
     text-decoration:underline;
-    }
+}
 #job-title
 {
     height: 5px;
-    }
-
-
+}
 #heading
 {
     font-weight:bold;
-    }
-h3 {
-    
-   width: 99%;
-    background-color: #E3EDD8;
-
 }
 span{
     font-weight: bold;
+}
+#footer
+{
+    height:40px;
+    clear:both;
+    color: white;
+    position: relative;
+    background-color: #668284;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+#devel
+{
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 15px;
+}
+#linkedinlink
+{
+    float: right;
+    margin-right: 15px;
+    margin-top: -22px;
+}
+
+/* Index page styling */
+.container
+{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+form>input
+{
+    margin: 6px;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+form > button
+{
+    margin: 6px;
+    padding: 7px 12px;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
 }
